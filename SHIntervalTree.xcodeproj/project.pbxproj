@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F259AE4918E0517D0070E137 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F259AE4818E0517D0070E137 /* Foundation.framework */; };
+		F259AE4B18E0517D0070E137 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F259AE4A18E0517D0070E137 /* CoreGraphics.framework */; };
+		F259AE4D18E0517D0070E137 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F259AE4C18E0517D0070E137 /* UIKit.framework */; };
+		F259AE5318E0517D0070E137 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F259AE5118E0517D0070E137 /* InfoPlist.strings */; };
+		F259AE5518E0517D0070E137 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F259AE5418E0517D0070E137 /* main.m */; };
+		F259AE5918E0517D0070E137 /* SHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F259AE5818E0517D0070E137 /* SHAppDelegate.m */; };
+		F259AE5B18E0517D0070E137 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F259AE5A18E0517D0070E137 /* Images.xcassets */; };
+		F259AE6218E0517D0070E137 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F259AE6118E0517D0070E137 /* XCTest.framework */; };
+		F259AE6318E0517D0070E137 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F259AE4818E0517D0070E137 /* Foundation.framework */; };
+		F259AE6418E0517D0070E137 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F259AE4C18E0517D0070E137 /* UIKit.framework */; };
+		F259AE6C18E0517D0070E137 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F259AE6A18E0517D0070E137 /* InfoPlist.strings */; };
+		F259AE6E18E0517D0070E137 /* SHIntervalTreeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F259AE6D18E0517D0070E137 /* SHIntervalTreeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F259AE6518E0517D0070E137 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F259AE3D18E0517D0070E137 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F259AE4418E0517D0070E137;
+			remoteInfo = SHIntervalTree;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F259AE4518E0517D0070E137 /* SHIntervalTree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SHIntervalTree.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F259AE4818E0517D0070E137 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F259AE4A18E0517D0070E137 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F259AE4C18E0517D0070E137 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F259AE5018E0517D0070E137 /* SHIntervalTree-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SHIntervalTree-Info.plist"; sourceTree = "<group>"; };
+		F259AE5218E0517D0070E137 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F259AE5418E0517D0070E137 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F259AE5618E0517D0070E137 /* SHIntervalTree-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SHIntervalTree-Prefix.pch"; sourceTree = "<group>"; };
+		F259AE5718E0517D0070E137 /* SHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHAppDelegate.h; sourceTree = "<group>"; };
+		F259AE5818E0517D0070E137 /* SHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHAppDelegate.m; sourceTree = "<group>"; };
+		F259AE5A18E0517D0070E137 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F259AE6018E0517D0070E137 /* SHIntervalTreeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SHIntervalTreeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F259AE6118E0517D0070E137 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F259AE6918E0517D0070E137 /* SHIntervalTreeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SHIntervalTreeTests-Info.plist"; sourceTree = "<group>"; };
+		F259AE6B18E0517D0070E137 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F259AE6D18E0517D0070E137 /* SHIntervalTreeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHIntervalTreeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F259AE4218E0517D0070E137 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F259AE4B18E0517D0070E137 /* CoreGraphics.framework in Frameworks */,
+				F259AE4D18E0517D0070E137 /* UIKit.framework in Frameworks */,
+				F259AE4918E0517D0070E137 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F259AE5D18E0517D0070E137 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F259AE6218E0517D0070E137 /* XCTest.framework in Frameworks */,
+				F259AE6418E0517D0070E137 /* UIKit.framework in Frameworks */,
+				F259AE6318E0517D0070E137 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F259AE3C18E0517D0070E137 = {
+			isa = PBXGroup;
+			children = (
+				F259AE4E18E0517D0070E137 /* SHIntervalTree */,
+				F259AE6718E0517D0070E137 /* SHIntervalTreeTests */,
+				F259AE4718E0517D0070E137 /* Frameworks */,
+				F259AE4618E0517D0070E137 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F259AE4618E0517D0070E137 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F259AE4518E0517D0070E137 /* SHIntervalTree.app */,
+				F259AE6018E0517D0070E137 /* SHIntervalTreeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F259AE4718E0517D0070E137 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F259AE4818E0517D0070E137 /* Foundation.framework */,
+				F259AE4A18E0517D0070E137 /* CoreGraphics.framework */,
+				F259AE4C18E0517D0070E137 /* UIKit.framework */,
+				F259AE6118E0517D0070E137 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F259AE4E18E0517D0070E137 /* SHIntervalTree */ = {
+			isa = PBXGroup;
+			children = (
+				F259AE5718E0517D0070E137 /* SHAppDelegate.h */,
+				F259AE5818E0517D0070E137 /* SHAppDelegate.m */,
+				F259AE5A18E0517D0070E137 /* Images.xcassets */,
+				F259AE4F18E0517D0070E137 /* Supporting Files */,
+			);
+			path = SHIntervalTree;
+			sourceTree = "<group>";
+		};
+		F259AE4F18E0517D0070E137 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F259AE5018E0517D0070E137 /* SHIntervalTree-Info.plist */,
+				F259AE5118E0517D0070E137 /* InfoPlist.strings */,
+				F259AE5418E0517D0070E137 /* main.m */,
+				F259AE5618E0517D0070E137 /* SHIntervalTree-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F259AE6718E0517D0070E137 /* SHIntervalTreeTests */ = {
+			isa = PBXGroup;
+			children = (
+				F259AE6D18E0517D0070E137 /* SHIntervalTreeTests.m */,
+				F259AE6818E0517D0070E137 /* Supporting Files */,
+			);
+			path = SHIntervalTreeTests;
+			sourceTree = "<group>";
+		};
+		F259AE6818E0517D0070E137 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F259AE6918E0517D0070E137 /* SHIntervalTreeTests-Info.plist */,
+				F259AE6A18E0517D0070E137 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F259AE4418E0517D0070E137 /* SHIntervalTree */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F259AE7118E0517D0070E137 /* Build configuration list for PBXNativeTarget "SHIntervalTree" */;
+			buildPhases = (
+				F259AE4118E0517D0070E137 /* Sources */,
+				F259AE4218E0517D0070E137 /* Frameworks */,
+				F259AE4318E0517D0070E137 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SHIntervalTree;
+			productName = SHIntervalTree;
+			productReference = F259AE4518E0517D0070E137 /* SHIntervalTree.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F259AE5F18E0517D0070E137 /* SHIntervalTreeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F259AE7418E0517D0070E137 /* Build configuration list for PBXNativeTarget "SHIntervalTreeTests" */;
+			buildPhases = (
+				F259AE5C18E0517D0070E137 /* Sources */,
+				F259AE5D18E0517D0070E137 /* Frameworks */,
+				F259AE5E18E0517D0070E137 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F259AE6618E0517D0070E137 /* PBXTargetDependency */,
+			);
+			name = SHIntervalTreeTests;
+			productName = SHIntervalTreeTests;
+			productReference = F259AE6018E0517D0070E137 /* SHIntervalTreeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F259AE3D18E0517D0070E137 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SH;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = grevolution;
+				TargetAttributes = {
+					F259AE5F18E0517D0070E137 = {
+						TestTargetID = F259AE4418E0517D0070E137;
+					};
+				};
+			};
+			buildConfigurationList = F259AE4018E0517D0070E137 /* Build configuration list for PBXProject "SHIntervalTree" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F259AE3C18E0517D0070E137;
+			productRefGroup = F259AE4618E0517D0070E137 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F259AE4418E0517D0070E137 /* SHIntervalTree */,
+				F259AE5F18E0517D0070E137 /* SHIntervalTreeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F259AE4318E0517D0070E137 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F259AE5318E0517D0070E137 /* InfoPlist.strings in Resources */,
+				F259AE5B18E0517D0070E137 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F259AE5E18E0517D0070E137 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F259AE6C18E0517D0070E137 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F259AE4118E0517D0070E137 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F259AE5518E0517D0070E137 /* main.m in Sources */,
+				F259AE5918E0517D0070E137 /* SHAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F259AE5C18E0517D0070E137 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F259AE6E18E0517D0070E137 /* SHIntervalTreeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F259AE6618E0517D0070E137 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F259AE4418E0517D0070E137 /* SHIntervalTree */;
+			targetProxy = F259AE6518E0517D0070E137 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F259AE5118E0517D0070E137 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F259AE5218E0517D0070E137 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F259AE6A18E0517D0070E137 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F259AE6B18E0517D0070E137 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F259AE6F18E0517D0070E137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F259AE7018E0517D0070E137 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F259AE7218E0517D0070E137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SHIntervalTree/SHIntervalTree-Prefix.pch";
+				INFOPLIST_FILE = "SHIntervalTree/SHIntervalTree-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F259AE7318E0517D0070E137 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SHIntervalTree/SHIntervalTree-Prefix.pch";
+				INFOPLIST_FILE = "SHIntervalTree/SHIntervalTree-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F259AE7518E0517D0070E137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SHIntervalTree.app/SHIntervalTree";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SHIntervalTree/SHIntervalTree-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SHIntervalTreeTests/SHIntervalTreeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F259AE7618E0517D0070E137 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SHIntervalTree.app/SHIntervalTree";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SHIntervalTree/SHIntervalTree-Prefix.pch";
+				INFOPLIST_FILE = "SHIntervalTreeTests/SHIntervalTreeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F259AE4018E0517D0070E137 /* Build configuration list for PBXProject "SHIntervalTree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F259AE6F18E0517D0070E137 /* Debug */,
+				F259AE7018E0517D0070E137 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F259AE7118E0517D0070E137 /* Build configuration list for PBXNativeTarget "SHIntervalTree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F259AE7218E0517D0070E137 /* Debug */,
+				F259AE7318E0517D0070E137 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F259AE7418E0517D0070E137 /* Build configuration list for PBXNativeTarget "SHIntervalTreeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F259AE7518E0517D0070E137 /* Debug */,
+				F259AE7618E0517D0070E137 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F259AE3D18E0517D0070E137 /* Project object */;
+}
